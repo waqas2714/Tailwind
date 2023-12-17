@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailwindCSS</title>
+  </head>
+  <body>
+    <!-- Positioning -->
+    <div class="w-screen h-screen bg-blue-400 relative">
+      <div class="absolute w-20 h-20 bg-yellow-600 top-0 left-0"></div>
+      <div class="absolute w-20 h-20 bg-red-600 top-0 right-0"></div>
+      <div class="absolute w-20 h-20 bg-green-600 bottom-0 left-0"></div>
+      <div class="absolute w-20 h-20 bg-orange-600 bottom-0 right-0"></div>
+      <div class="absolute w-20 h-20 bg-rose-600 top-60 left-1/2"></div>
+    </div>
+    
+    <!-- Display Classes -->
+    <div class="container p-8 mt-8">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure <span class="span font-bold">This is span</span> harum esse aperiam molestiae sapiente vero odio? Placeat, <span class="inline-block font-bold">This is inline-block</span> repellendus assumenda? Ullam quibusdam nam natus, pariatur voluptatibus soluta! <span class="block font-bold">This is Block</span> Officiis, natus sed? Recusandae <span class="hidden font-bold">This is Hidden</span> corrupti officia iure odio!
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->
